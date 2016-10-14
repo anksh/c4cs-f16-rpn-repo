@@ -1,2 +1,2 @@
 language: python
-script: python -m unittest test_rpn
+script: make test
