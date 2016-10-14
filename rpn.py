@@ -21,7 +21,6 @@ def calculate(myarg):
            arg2 = stack.pop()
            arg1 = stack.pop()
            stack.append(function(arg1, arg2))
-        print(stack)
     if len(stack) != 1:
         raise TypeError("Too Many params")
     return stack.pop()
