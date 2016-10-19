@@ -1,0 +1,3 @@
+#!/bin/bash
+make test
+coverage run test_rpn.py
