@@ -27,6 +27,12 @@ def calculate(myarg):
     return stack.pop()
 
 def main():
+    a = {'a':'b',
+'a':'b',
+'a':'b',
+'a':'b',
+'a':'b',
+    }
     while True:
         result = calculate(input("rpn calc>"))
         print(result)
